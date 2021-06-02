@@ -20,7 +20,8 @@ namespace WebApplication3.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            return Redirect("https://www.google.com");
+            return RedirectToAction("privacy");
         }
 
         public IActionResult Privacy()
