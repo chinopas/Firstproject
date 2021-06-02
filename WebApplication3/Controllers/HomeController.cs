@@ -20,7 +20,7 @@ namespace WebApplication3.Controllers
 
         public IActionResult Index()
         {
-            return RedirectToAction("privacy");
+            return View();
         }
 
         public IActionResult Privacy()
